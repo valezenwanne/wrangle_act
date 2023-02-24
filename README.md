@@ -15,7 +15,7 @@ This dataset is a table full of image predictions (the top three only) alongside
 This is the resulting data from twitter_api.py from which the data will read line by line into a pandas DataFrame with (at minimum) tweet ID, retweet count, and favorite count extracted from the data
 
 
-##### Note: twitter_archive_master.csv is a cleaned and merged dataset used for the analysis
+#### Note: twitter_archive_master.csv is a cleaned and merged dataset used for the analysis
 
 
 ## Goal of the project
@@ -28,18 +28,18 @@ The goal of this project is to wrangle the dataset and assess for at least eight
 The following issues below were observed during the wrangling process
 
 ##### Qualitiy Issues:
-Some tweets are retweets
-Some tweet are reply
-Missing values on columns 
-Incorrect datatypes on columns
-Inaccurate dog names
-Inconsistent data
-Inaccurate dats
-Non-descriptive column name
+- Some tweets are retweets
+- Some tweet are reply
+- Missing values on columns 
+- Incorrect datatypes on columns
+- Inaccurate dog names
+- Inconsistent data
+- Inaccurate dats
+- Non-descriptive column name
 
 ##### Tidiness issues
-There are four columns of dog stages in twitter_archive table when it should be one variable named dog stage
-There should be one table whereas there are three(3) tables
+- There are four columns of dog stages in twitter_archive table when it should be one variable named dog stage
+- There should be one table whereas there are three(3) tables
 
 
 
